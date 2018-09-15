@@ -1,0 +1,8 @@
+applications:
+- name: cfapp-dev
+  host: cfapp-dev
+  memory: 1G
+  instances: 1
+  path: ./target/gitapp-0.0.1-SNAPSHOT.war
+      env:
+      SCHEDULERTEST: TRUE
